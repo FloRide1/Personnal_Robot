@@ -1,0 +1,36 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DSPIC33EP512GM310-I_PF:DSPIC33EP512GM310-I_PF U?
+U 1 1 6027F9DC
+P 6600 3250
+F 0 "U?" H 6600 5917 50  0000 C CNN
+F 1 "DSPIC33EP512GM310-I_PF" H 6600 5826 50  0000 C CNN
+F 2 "QFP50P1600X1600X120-100N" H 6600 3250 50  0001 L BNN
+F 3 "" H 6600 3250 50  0001 L BNN
+F 4 "MICROCHIP" H 6600 3250 50  0001 L BNN "MANUFACTURER"
+	1    6600 3250
+	1    0    0    -1  
+$EndComp
+Text Label 4300 3150 2    50   ~ 0
+PGC
+Wire Wire Line
+	4500 3150 4300 3150
+Wire Wire Line
+	4500 3250 4300 3250
+Text Label 4300 3250 2    50   ~ 0
+PGD
+$EndSCHEMATC
